@@ -1,0 +1,31 @@
+{
+  "funcionario": {
+    "id": 1,
+    "dataNascimento": "2023-10-02T00:00:00",
+    "cpf": "548.416.050-29",
+    "nome": "dudu carnwiro",
+    "sexo": "Feminino",
+    "endereco": {
+      "cep": "76916-000",
+      "logradouro": "Rua da Eucatur",
+      "bairro": "Habitar Brasil",
+      "numero": 3800,
+      "uf": "RO"
+    },
+    "contato": {
+      "telefones": [
+        {
+          "numero": "(24) 85234-8528",
+          "tipo": "Trabalho",
+          "principal": true
+        }
+      ],
+      "emails": [
+        {
+          "email": "dudu@gmail.com",
+          "principal": true
+        }
+      ]
+    }
+  }
+}
