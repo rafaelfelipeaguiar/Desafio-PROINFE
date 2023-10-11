@@ -1,12 +1,11 @@
 {
   "funcionario": {
-    "id": 1,
-    "dataNascimento": "2023-10-02T00:00:00",
-    "cpf": "548.416.050-29",
-    "nome": "dudu carnwiro",
-    "sexo": "Feminino",
+    "dataNascimento": "2023-10-03T00:00:00",
+    "sexo": "Masculino",
+    "cpf": "057.821.592-60",
+    "nome": "Rafael Felipe",
     "endereco": {
-      "cep": "76916-000",
+      "cep": "76909-836",
       "logradouro": "Rua da Eucatur",
       "bairro": "Habitar Brasil",
       "numero": 3800,
@@ -16,13 +15,13 @@
       "telefones": [
         {
           "numero": "(24) 85234-8528",
-          "tipo": "Trabalho",
+          "tipo": "Casa",
           "principal": true
         }
       ],
       "emails": [
         {
-          "email": "dudu@gmail.com",
+          "email": "rafaelfelipe@gmail.com",
           "principal": true
         }
       ]

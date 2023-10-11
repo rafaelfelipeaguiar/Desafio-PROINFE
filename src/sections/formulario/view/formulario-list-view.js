@@ -134,13 +134,11 @@ export default function FormularioListView() {
     FormularioService.index()
       .then((response) => {
         console.log(response)
-        if(Array.isArray(response)) {
-
           setDataTable(response);
           setQuantPagsApi(Math.ceil(response.length / itemsPerPage));
           setTotalItemsApi(response.length);
           setDataTableFilter(response.slice(0, itemsPerPage));
-        }
+
       })
       .catch(() => {
         enqueueSnackbar('Serviço de formulário indisponível', {

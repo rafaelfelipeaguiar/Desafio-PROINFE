@@ -39,7 +39,7 @@ export default function FormIdentificacao({
   const validationSchema = Yup.object().shape({
     nome: Yup.string().required('Nome Fantasia é obrigatório').min(5, 'Minímo de 5 caracteres'),
     cpf: Yup.string().required('CPF é obrigatório'),
-    //sexo: Yup.string().required('Sexo é obrigatório'),
+    sexo: Yup.string().required('Sexo é obrigatório'),
     dataNascimento: Yup.string().required('Data de Nascimento é obrigatório'),
   })
 
